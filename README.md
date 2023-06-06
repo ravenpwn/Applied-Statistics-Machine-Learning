@@ -3,4 +3,4 @@ Xử lý bộ dataset 2019: loại bỏ các cột không liên quan (vd chứa 
 
 Cần chọn traning model thích hợp + save model (model cơ bản svm của sklearn mất khoảng 20-30p để train với bộ dữ liệu 200MB).
 
-Có thể sẽ sử dụng các phương hướng sau để tiếp tục process data nếu model vẫn chưa thích hợp: bỏ các cột có correlation cao với các cột khác, sử dụng Anova test.
+Có thể sẽ sử dụng các phương hướng sau để tiếp tục process data nếu model vẫn chưa thích hợp: chỉ chuẩn hóa một số cột, bỏ các cột có correlation cao với các cột khác, sử dụng Anova test.
