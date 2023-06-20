@@ -1,6 +1,10 @@
-# TODO
-Xử lý bộ dataset 2023: loại bỏ các cột không liên quan (vd chứa string value, cột stt, cột chứa giá trị NaN, cột chứa duy nhất 1 giá trị,...). Sau đó chuẩn hóa dữ liệu với StandardScaler, giảm độ phức tạp của data với PCA.
+# Network Attack Detection
 
-Cần chọn traning model thích hợp + save model (model cơ bản svm của sklearn mất khoảng 20-30p để train với bộ dữ liệu 200MB).
+Machine learning model for network attach detection based on Support Vector Machine and Random Forest. 
 
-Có thể sẽ sử dụng các phương hướng sau để tiếp tục process data nếu model vẫn chưa thích hợp: chỉ chuẩn hóa một số cột, bỏ các cột có correlation cao với các cột khác, sử dụng Anova test.
+## Models
+
+We evaluate ML performance from two perspectives: 
+    (i) Multiclass classification - focussing on classifying 33 individual attacks
+    (ii) Grouped classification - considering 7 attack groups (e.g. DDoS and DoS)
+    
