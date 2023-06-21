@@ -8,5 +8,5 @@ We evaluate ML performance from two perspectives:
     
     (i) Multiclass classification - focussing on classifying 33 individual attacks
     
-    (ii) Grouped classification - considering 7 attack groups (e.g. DDoS and DoS)
+    (ii) Grouped classification - considering 7 attack groups (including: DDoS, DoS, Spoofing, Recon, Web-based, Mirai and Bruteforcing)
     
