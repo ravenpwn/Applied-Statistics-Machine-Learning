@@ -5,6 +5,8 @@ Machine learning model for network attach detection based on Support Vector Mach
 ## Models
 
 We evaluate ML performance from two perspectives: 
+    
     (i) Multiclass classification - focussing on classifying 33 individual attacks
+    
     (ii) Grouped classification - considering 7 attack groups (e.g. DDoS and DoS)
     
